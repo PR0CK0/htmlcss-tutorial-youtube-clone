@@ -1,1 +1,1 @@
-https://htmlcss-tutorial-youtube-clone.heroku.com/
+https://htmlcss-tutorial-youtube-clone.herokuapp.com/
