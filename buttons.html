@@ -1,0 +1,126 @@
+<p>In CSS, color: is a PROPERTY, and white is a VALUE.</p>
+<p>Spacing on the outside of an element is MARGIN.</p>
+<p>Spacing on the inside of an element is PADDING.</p>
+<p>The CSS BOX MODEL is margin, padding and border... how much space an element takes up and how far away it is from other elements.</p>
+
+<style>
+  #yt-sub {
+    color: white;
+    background-color: rgb(180, 0, 0);
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: .5rem;
+    transition: opacity .2s;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  #yt-sub:hover {
+    opacity: 70%;
+  }
+
+  #yt-sub:active {
+    opacity: 40%;
+  }
+
+  #yt-join {
+    color: rgb(35, 105, 180);
+    background-color: white;
+    border-color: rgb(35, 105, 180);
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    cursor: pointer;
+    margin-right: .5rem;
+    transition: color .3s, background-color .3s;
+    padding-top: .65rem;
+    padding-bottom: .65rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  #yt-join:hover {
+    color: white;
+    background-color: rgb(35, 105, 180)
+  }
+
+  #yt-join:active {
+    opacity: 60%;
+  }
+
+  #twitter {
+    color: white;
+    background-color: rgb(48, 138, 234);
+    border: none;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: .9rem;
+    cursor: pointer;
+    transition: box-shadow .3s;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: .5rem;
+  }
+
+  #twitter:hover {
+    box-shadow: .4rem .4rem .7rem rgba(0, 0, 0, 20%);
+  }
+
+  #grower {
+    color: white;
+    background-color: green;
+    border: none;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transition: opacity .3s, padding-top .3s, padding-bottom .3s, padding-left .3s, padding-right .3s, font-weight .3s;
+  }
+
+  #grower:hover {
+    opacity: 70%;
+  }
+
+  #grower:active {
+    font-weight: bold;
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .num {
+    background-color: white;
+    color: blue;
+    border: none;
+  }
+
+  .num:hover {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+</style>
+
+<button id="yt-sub">SUBSCRIBE</button>
+<button id="yt-join">JOIN</button>
+<button id="twitter">Tweet</button>
+
+<button id="grower">GROW!!!</button>
+
+<br><br>
+
+<button>Prev</button>
+<button class="num">1</button>
+<button class="num">2</button>
+<button class="num">3</button>
+<button class="num">4</button>
+<button class="num">5</button>
+<button>Next</button>
+
+
+<p><a href="index.html">Back to index.</a></p>
