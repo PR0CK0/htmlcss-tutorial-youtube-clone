@@ -16,3 +16,4 @@ Steps for deploying a basic HTML app to Heroku...
 * heroku create [app] OR heroku apps:open [appname, can get list by typing heroku apps]
 * heroku git:remote -a [app name]
 * git push heroku main
+* Any additional edits should be a login to heroku in the local repo, then git add ., git commit, git push, git push heroku main
