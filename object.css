@@ -1,0 +1,71 @@
+#img0 {
+  width: 300px;
+  border-width: 2px;
+  border-style: solid;
+}
+
+#img1 {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: top;
+  border-width: 2px;
+  border-style: solid;
+}
+
+#img2 {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: bottom;
+  border-width: 2px;
+  border-style: solid;
+}
+
+#img3 {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  border-width: 2px;
+  border-style: solid;
+}
+
+#img4 {
+  width: 300px;
+  height: 300px;
+  object-fit: fill;
+  border-width: 2px;
+  border-style: solid;
+}
+
+#img5 {
+  width: 300px;
+  height: 300px;
+  object-fit: scale-down;
+  border-width: 2px;
+  border-style: solid;
+}
+
+#img6 {
+  width: 300px;
+  height: 300px;
+  object-fit: inherit;
+  border-width: 2px;
+  border-style: solid;
+}
+
+#img7 {
+  width: 300px;
+  height: 300px;
+  object-fit: initial;
+  border-width: 2px;
+  border-style: solid;
+}
+
+#img8 {
+  width: 300px;
+  height: 300px;
+  object-fit: unset;
+  border-width: 2px;
+  border-style: solid;
+}

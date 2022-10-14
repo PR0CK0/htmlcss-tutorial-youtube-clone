@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grid Practice</title>
+  </head>
+  <body style="padding-bottom: 1000px">
+    <div style="display: grid; grid-template-columns: 50% 50%;">
+      <div style="background-color: lightblue">
+        div1 50%
+      </div>
+      <div style="background-color: lightgreen">
+        div2 50%
+        <p>text</p>
+      </div>
+    </div>
+
+    <br><hr><br>
+
+    <div style="display: grid; grid-template-columns: 33.3% 33.3% 33.4%;">
+      <div style="background-color: lightblue">
+        div1 33.3%
+      </div>
+      <div style="background-color: lightgreen">
+        div2 33.3%
+        <p>text</p>
+      </div>
+      <div style="background-color: lightsalmon">
+        div3 33.4%
+        <p>more text</p>
+      </div>
+    </div>
+
+    <br><hr><br>
+
+    <div style="display: grid; grid-template-columns: 100px 100px 100px;">
+      <div style="background-color: lightblue">
+        div1 100px
+      </div>
+      <div style="background-color: lightgreen">
+        div2 100px
+        <p>text</p>
+      </div>
+      <div style="background-color: lightsalmon">
+        div3 100px
+        <p>more text</p>
+      </div>
+      <div style="background-color: lightsalmon">
+        div4 ???
+        <p>this one wraps around because we only have 3 css values</p>
+      </div>
+    </div>
+
+    <br><hr><br>
+
+    <div style="display: grid; grid-template-columns: 100px 1fr;">
+      <div style="background-color: lightblue">
+        div1 100px
+      </div>
+      <div style="background-color: lightgreen">
+        div2 1fr
+      </div>
+    </div>
+
+    <br><hr><br>
+
+    <div style="display: grid; grid-template-columns: 100px 1fr 1fr;">
+      <div style="background-color: lightblue">
+        div1 100px
+      </div>
+      <div style="background-color: lightgreen">
+        div2 1fr
+      </div>
+      <div style="background-color: lightsalmon">
+        div3 1fr
+      </div>
+    </div>
+    
+    <br><hr><br>
+
+    <div style="display: grid; grid-template-columns: 100px 1fr 2fr;">
+      <div style="background-color: lightblue">
+        div1 100px
+      </div>
+      <div style="background-color: lightgreen">
+        div2 1fr
+      </div>
+      <div style="background-color: lightsalmon">
+        div3 2fr
+      </div>
+    </div>
+
+    <br><hr><br>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; column-gap: 1rem; row-gap: 3rem;">
+      <div style="background-color: lightblue; height: 200px;">
+        div1 1fr
+      </div>
+      <div style="background-color: lightgreen;">
+        div2 1fr
+      </div>
+      <div style="background-color: lightblue">
+        div3 1fr
+      </div>
+      <div style="background-color: lightgreen; height: 200px;">
+        div4 1fr
+      </div>
+      <div style="background-color: lightblue;">
+        div5 1fr
+      </div>
+      <div style="background-color: lightgreen">
+        div6 1fr
+      </div>
+    </div>
+
+    <br><hr><br>
+
+    <a href="index.html">Back to index.</a>
+    <p>CSS as an attribute is an INLINE STYLE.</p>
+    <p>"fr" as a grid attribute means "take up the rest of the space", good for filling in leftover space if you use percentages.</p>
+    <p>Setting the height of one div in a grid changes the heights of all the other divs to match it, unless you specify a value individually for each... it does this PER ROW.</p>
+  </body>
+</html>

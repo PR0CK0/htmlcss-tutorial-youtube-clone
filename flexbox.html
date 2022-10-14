@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flexbox Practice</title>
+  </head>
+  <body style="margin-bottom: 1000px;">
+    <div style="display:flex; flex-direction: row;">
+      <div style="background-color: lightblue">
+        div1
+      </div>
+      <div style="background-color: lightgreen">
+        div2
+        <p>text</p>
+      </div>
+    </div>
+    
+    <br><hr><br>
+
+    <div style="display:flex; flex-direction: row;">
+      <div style="background-color: lightblue; width: 100px;">
+        div1 100px
+      </div>
+      <div style="background-color: lightgreen; flex: 1;">
+        div2 flex1
+        <p>text</p>
+      </div>
+    </div>
+
+    <br><hr><br>
+
+    <div style="display:flex; flex-direction: row;">
+      <div style="background-color: lightblue; width: 100px;">
+        div1 100px
+      </div>
+      <div style="background-color: lightgreen; flex: 1;">
+        div2 flex1
+        <p>text</p>
+      </div>
+      <div style="background-color: lightblue; flex: 2;">
+        div1 flex2
+      </div>
+    </div>
+
+    <br><hr><br>
+
+    <div style="display:flex; flex-direction: row; height: 70px; border-width: 1px; border-style: solid; border-color: grey; justify-content: end;">
+      <div style="background-color: lightblue; width: 100px;">
+        div1 100px
+      </div>
+      <div style="background-color: lightgreen; width: 100px;">
+        div2 flex1
+        <p>text</p>
+      </div>
+      <div style="background-color: lightblue; width: 100px;">
+        div1 flex2
+      </div>
+    </div>
+
+    <br><hr><br>
+
+    <div style="display:flex; flex-direction: row; height: 70px; border-width: 1px; border-style: solid; border-color: grey; justify-content: space-between;">
+      <div style="background-color: lightblue; width: 100px;">
+        div1 100px
+      </div>
+      <div style="background-color: lightgreen; width: 100px;">
+        div2 flex1
+        <p>text</p>
+      </div>
+      <div style="background-color: lightblue; width: 100px;">
+        div1 flex2
+      </div>
+    </div>
+
+    <br><hr><br>
+
+    <div style="display:flex; flex-direction: row; height: 70px; border-width: 1px; border-style: solid; border-color: grey; justify-content: space-between; align-items: center;">
+      <div style="background-color: lightblue; width: 100px;">
+        div1 100px
+      </div>
+      <div style="background-color: lightgreen; width: 100px;">
+        div2 flex1
+        <p>text</p>
+      </div>
+      <div style="background-color: lightblue; width: 100px;">
+        div1 flex2
+      </div>
+    </div>
+
+    <br><hr>
+
+    <a href="index.html">Back to index.</a>
+    <p>Flexboxes maintiain vertical alignment... say one box is larger, all boxes in a row will maintain alignment.</p>
+    <p>flex attribute is like fr for grids... flex 1 means "remaining space"</p>
+  </body>
+</html>

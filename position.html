@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Learning Position in CSS</title>
+  </head>
+  <body style="height: 100000px; padding-top: 70px; padding-left: 70px;">
+
+  
+
+    <div style="background-color: black; color: white; position: fixed; top: 0px; left: 0px; right: 0px; height: 60px; z-index: 1">
+      fixed header... need z-index for 2nd div absolute
+    </div>
+
+    <div style="background-color: green; color:white; position: fixed; left: 0; bottom: 0; top: 60px; width: 60px">
+      fixed sidebar
+      <div style="position: absolute; background-color: red; color: white; top: 0; right: 0">
+        X
+      </div>
+    </div>
+
+    <div style="position: absolute; background-color: red; color: white; left: 350px; top: 150px;">
+      absolute
+    </div>
+
+    <div style="background-color: lightblue; height: 200px; width: 200px; position: static">
+      div1
+    </div>
+    <div style="background-color: lightgreen; height: 200px; width: 200px; position: relative;">
+      div2
+      <div style="position: absolute; background-color: red; color: white; right: 0; bottom: 0;">
+        absolute
+      </div>
+    </div>
+
+    <br><hr><br>
+
+    <a href="index.html">Back to index.</a>
+    <p>position: static is default position always on back, fixed means it doesn't move on scroll</p>
+    <p>making something fixed changes it from, for instance, rendering left/right over the whole page, to the bare minimum of the element in it.</p>
+    <p>for headers, setting a fixed element's left: and top: styles to 0 makes it flush with the browser edge.</p>
+    <p>position attributes, left and right, top and bottom, if set opposite, i.e., left:50;right:50;, makes the element stretch across the screen; 0 left 0 right means full stretch; set top, left and right, then a height, and you have a nice header setup</p>
+    <p>style your body with a margin-top or padding-top to make the header sit above site content</p>
+    <p>same thing with a sidebar, just padding-left on body; set top (to same value as header height if you have one, otherwise zero), left and bottom, the a width and you're done.</p>
+    <p>absolute position is kinda wacky... it can be scrolled off the page... they are placed on the PAGE, unlike fixed/static, which are on the browser WINDOW</p>
+    <p>if you set the z-index style rule of the header to 1, then the absolute thing will render below it... default z-index is 0. also if you just put the absolute thing BEFORE the header in the actual HTML file, it parses it first and it gets overriden by the header</p>
+    <p>absolutes can be put into divs and inherit top, right, left, bottom etc. from that div...</p>
+    <p>absolutes are useful because lining up a corner is trivial... useful for exit buttons or adding little things into elements</p>
+    <p>relative position on an element means any sub-element that is ABSOLUTE will be relative to the container... very useful and still allows the item to scroll with the window normally.</p>
+  </body>
+</html>

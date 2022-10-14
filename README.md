@@ -1,3 +1,5 @@
+**If the below link is dead it's because Heroku isn't free anymore and I'm not paying for a project host... just download the whole site and open index.html in any browser...**
+
 https://htmlcss-tutorial-youtube-clone.herokuapp.com/
 
 Steps for deploying a basic HTML app to Heroku...

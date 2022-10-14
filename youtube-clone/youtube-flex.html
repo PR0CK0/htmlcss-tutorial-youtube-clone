@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube - Cloned with HTML/CSS - Grid Styling</title>
+    <link rel="stylesheet" href="youtube-flex.css">
+    <link rel="stylesheet" href="youtube-header.css">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="youtube-sidebar.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-left">
+        <img class="menu-logo" src="icons/menu.png">
+        <img class="yt-logo" src="icons/logo.png">
+      </div>
+
+      <div class="header-center">
+        <input class="searchbar" type="text" placeholder="Search">
+        <button class="search-btn">
+          <img class="search-logo" src="icons/search.png">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="mic-btn">
+          <img class="mic-logo" src="icons/mic.png">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+
+      <div class="header-right">
+        <div class="upload-btn-container">
+          <img class="upload-btn" src="icons/upload.png">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="grid-btn-container">
+          <img class="grid-btn" src="icons/grid.png">
+          <div class="tooltip">Apps</div>
+        </div>
+        <div class="alert-container">
+          <img class="alarm-btn" src="icons/alarm.png">
+          <div class="notification-count">3</div>
+          <div class="tooltip">Alerts</div>
+        </div>
+        <img class="profile-btn" src="icons/profile.png">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-box">
+        <img class="sidebar-icon" src="icons/home.png">
+        <p>Home</p>
+      </div>
+      <div class="sidebar-box">
+        <img class="sidebar-icon" src="icons/explore.png">
+        <p>Explore</p>
+      </div>
+      <div class="sidebar-box">
+        <img class="sidebar-icon" src="icons/subs.png">
+        <p>Subscriptions</p>
+      </div>
+      <div class="sidebar-box">
+        <img class="sidebar-icon" src="icons/originals.png">
+        <p>Originals</p>
+      </div>
+      <div class="sidebar-box">
+        <img class="sidebar-icon" src="icons/library.png">
+        <p>Library</p>
+      </div>
+    </nav>
+
+    <section class="video-grid">
+      <div class="videobox">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/img1.png">
+          <div class="video-time">14:13</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="video-author-subbox"> 
+            <img class="author-img "src="thumbnails/img1.png">
+          </div>
+          <div class="video-info-subbox">
+            <p class="video-title">I am definitely not an android, I am a real person and I love you</p>
+            <p class="video-author">xXxNotAnAndroidxXx</p>
+            <p class="video-stats">1.8M views &#183; 3 days ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="videobox">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/img2.png">
+          <div class="video-time">5:37</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="video-author-subbox"> 
+            <img class="author-img "src="thumbnails/img1.png">
+          </div>
+          <div class="video-info-subbox">
+            <p class="video-title">Look, I'm not an android, please come and hug me I promise I'm nice</p>
+            <p class="video-author">xXxNotAnAndroidxXx</p>
+            <p class="video-stats">589k views &#183; 2 days ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="videobox">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/img3.png">
+          <div class="video-time">1:19</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="video-author-subbox"> 
+            <img class="author-img "src="thumbnails/img1.png">
+          </div>
+          <div class="video-info-subbox">
+            <p class="video-title">Look I'm an anime girl now lol</p>
+            <p class="video-author">xXxNotAnAndroidxXx</p>
+            <p class="video-stats">859k views &#183; 8 days ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="videobox">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/img4.png">
+          <div class="video-time">3:55</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="video-author-subbox"> 
+            <img class="author-img "src="thumbnails/img1.png">
+          </div>
+          <div class="video-info-subbox">
+            <p class="video-title">This is faux fur because animals aren't a thing in 2068</p>
+            <p class="video-author">xXxNotAnAndroidxXx</p>
+            <p class="video-stats">2.6M views &#183; 4 weeks ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="videobox">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/img5.png">
+          <div class="video-time">0:47</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="video-author-subbox"> 
+            <img class="author-img "src="thumbnails/img1.png">
+          </div>
+          <div class="video-info-subbox">
+            <p class="video-title">New makeup what do you think?</p>
+            <p class="video-author">xXxNotAnAndroidxXx</p>
+            <p class="video-stats">483k views &#183; 5 days ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="videobox">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/img6.png">
+          <div class="video-time">2:26</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="video-author-subbox"> 
+            <img class="author-img "src="thumbnails/img1.png">
+          </div>
+          <div class="video-info-subbox">
+            <p class="video-title">It's pretty hot in this jacket, why am I wearing it lol</p>
+            <p class="video-author">xXxNotAnAndroidxXx</p>
+            <p class="video-stats">2.5M views &#183; 2 weeks ago</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br><hr><br>
+
+    <a href="../index.html">Back to index.</a>
+    <p>Make a general .css file and do body{margin: 0;}, this essentially gives you a clean slate to work with.</p>
+    <p>You can target CSS modifiers on input elements like textbox placeholders with name::placeholder.</p>
+    <p>Border radius of half width/height makes a circle.</p>
+    <p>CSS Position means things staying static on the page as you scroll, tooltips on hover, etc... basically, "depth"</p>
+    <p>any css rule starts with a SELECTOR... element, class, id, etc.</p>
+    <p>set your general inheritance properties, like default margins and font, in a css body selector.</p>
+    <p>semantic elements are just divs with "meaning" to screen-readers and bots. nav, header, main, article, section, etc.</p>
+  </body>
+</html>

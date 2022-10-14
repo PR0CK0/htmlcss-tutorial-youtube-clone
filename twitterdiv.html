@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Arial;
+      }
+      
+      p {
+        margin: 0;
+      }
+
+      .twitterbox {
+        display: flex;
+      }
+
+      .left {
+        /*background-color: lightgrey;*/
+        width: 60px;
+        display: flex;
+        align-items: top;
+        justify-content: center;
+      }
+      
+      .right {
+        /*background-color: lightblue;*/
+        width: 340px;
+      }
+
+      .name {
+        padding-bottom: 5px;
+        font-size: .98rem;
+      }
+
+      .post {
+        line-height: 21px;
+        font-size: .98rem;
+        margin-bottom: 15px;
+      }
+
+      .block {
+        /*background-color: lightsalmon;*/
+        display: flex;
+        flex: 1;
+        border-radius: 20px;
+        border: 1px;
+        border-color: grey;
+        border-style: solid;
+        height: 100px;
+        overflow: hidden;
+      }
+
+      .avatar {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 20px;
+      }
+
+      .handle {
+        color: grey;
+        font-size: .95rem;
+      }
+
+      .block-left {
+        background-color: rgb(220, 220, 220);
+        flex: 1;
+      }
+
+      .block-right {
+        padding-top: 22px;
+        padding-left: 15px;
+        flex: 3.5;
+        font-size: .95rem;
+      }
+
+      .host {
+        color: grey;
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="twitterbox">
+      <div class="left">
+        <img class="avatar" src="youtube-clone/thumbnails/img1.png">
+      </div>
+      <div class="right">
+        <!-- This "content" class is not necessary but I can't get rid of it without breaking my look... lol. Classic. Idk.-->
+        <div class="content">
+          <div class="name">
+            <p><b>supersimple.dev</b> <span class="handle">@SuperSimpleDev</span></p></div>
+          </div>
+          <div class="post">
+            What is backend web development? A complete overview. New video is up!
+          </div>
+          <div class="block">
+            <div class="block-left"></div>
+            <div class="block-right">
+              <p class="host">youtube.com</p>
+              <p>Backend web development - a complete overview (2021)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><hr>
+    <a href="index.html">Back to index.</a>
+  </body>
+</html>

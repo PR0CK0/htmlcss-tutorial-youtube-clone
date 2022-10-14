@@ -1,0 +1,38 @@
+.sidebar {
+  position: fixed;
+  background-color: white;
+  bottom: 0;
+  left: 0;
+  top: 55px;
+  width: 80px;
+  padding-top: 10px;
+  padding-left: 4px;
+  z-index: 1;
+}
+
+.sidebar-box {
+  padding-top: 5px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.sidebar-box:hover {
+  background-color: rgb(235, 235, 235);
+  cursor: pointer;
+}
+
+/* This div class for this selector is not necessary if we do .sidebar-box img {...} */
+/* Basically says: all images in the container sidebar-box */
+.sidebar-icon {
+  width: 25px;
+}
+
+.sidebar-box p {
+  font-family: Roboto, Arial;
+  font-size: .7rem;
+  margin-top: 6px;
+}
